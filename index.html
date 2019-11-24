@@ -20,35 +20,16 @@
 
   <!-- Custom CSS -->
   <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link href="css/new.css" rel="stylesheet">
+
 
 </head>
 
 <body id="page-top">
 
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
-    <i class="fas fa-bars"></i>
-  </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">SLZ Wholesale</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Home</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
-
   <!-- Header -->
   <header class="masthead d-flex">
-    <div class="container text-center my-auto">
+    <div class="container text-center my-auto textback">
       <h1 class="mb-1">SLZ WHOLESALE</h1>
       <h3 class="mb-5">
         <em>Food Containers For Your Business</em>
@@ -65,7 +46,7 @@
         <div class="col-lg-10 mx-auto">
           <h2>SLZ Wholesale is the perfect partner for your restuarant business!</h2>
           <p class="lead mb-5">We are a Bay Area company specializing in import and distribution of resturant supplies! Established in 2019 and located in Vacaville, CA, we can support your supply needs wherever you are located around the Bay Area. We have our own fleet of delivery trucks that service all of our customers and can dispatch with minimal notice.</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#contact">Contact Us</a>
+          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#contact">Contact Us</a>
         </div>
       </div>
     </div>
@@ -78,13 +59,27 @@
     <small>
       <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
     </small> -->
+  <div class="container text-center">
   <form action="https://formspree.io/mayyrbqg" method="POST">
-  Name: <input type="text" name="name" placeholder="Name">
-  Email: <input type="email" name="_replyto" placeholder= "Email">
-  Phone Number: <input type="tel" name="phone" placeholder="Phone Number">
-  Message: <textarea name ="message" placeholder="Type your message here"></textarea>
-  <input type="submit" value="Send">
+  <div class= "form-group">
+    <label for="name">Name:</label>
+   <input type="text" id="name" name="name" class="form-control">
+  </div>
+  <div class="form-group">
+  <label for="email">Email Address:</label>
+  <input type="email" name="_replyto" id="email" class="form-control">
+  </div>
+  <div class="form-group">
+  <label for"phone">Phone Number:</label>
+  <input type="tel" id="phone" name="phone" class="form-control">
+</div>
+<div class="form-group">
+  <label for="message">Message:</label>
+  <textarea name ="message" id="message" class="form-control"></textarea>
+</div>
+  <button type="submit">Send</button>
   </form>
+  </div>
   </section>
 
   <!-- Footer -->
